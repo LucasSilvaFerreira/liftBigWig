@@ -23,7 +23,7 @@ pip install git+https://github.com/LucasSilvaFerreira/liftBigWig.git
 ## Usage
 
 ```python
-from bigwig_converter import convert_bigwig
+from liftBigWig import convert_bigwig
 
 # Convert from hg19 to hg38
 convert_bigwig("input_hg19.bw", "output_hg38.bw", "hg19", "hg38")
